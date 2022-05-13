@@ -9,8 +9,19 @@
     <script type="text/javascript" src="quiz.js"></script>
 </head>
 <body>
-    <form name="quizform" id="quiz"> 
-        <p></p>
+    <form name="quiz" id="quiz"> 
+       <div>
+           <p>1.Which is the capital city of Malawi?</p>
+           <p><input type="radio"name="question1" value="Nairobi">1.Nairobi</p>
+           <p><input type="radio"name="question1" value="lilongwe">2.lilongwe</p>
+           <p><input type="radio"name="question1" value="Maseru">3.Maseru</p>
+           <p><input type="radio"name="question1" value="Kampala">4.Kampala</p>
+       </div>
+
+       
+       <input type="button" value="answered all questions " onclick="check()">
     </form>
+
+
 </body>
 </html>
