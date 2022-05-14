@@ -13,11 +13,6 @@ function check(){
     if(q4=="Everest") {c++}
     if(q5=="R.Nile") {c++}
     quiz.style.display='none';
-     if (c<=3){
-     marks.textContent="Total Marks is ${c}. Try again."
-     }
-     else{
-          marks.textContent="Total Marks is ${c}. Good job."
-
-     }
+    marks.textContent='${c}'; 
+    document.write(c);
 }
