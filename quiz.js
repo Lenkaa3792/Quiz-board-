@@ -12,7 +12,7 @@ function check(){
     if(q3=="Tarmac roads") {c++}
     if(q4=="Everest") {c++}
     if(q5=="R.Nile") {c++}
-    quiz.style.display='none';
+    quiz.style.display='none'
     marks.textContent='${c}'; 
     document.write(c);
 }
