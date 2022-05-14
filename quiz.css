@@ -4,7 +4,9 @@ body{
     margin-left: 40px;
 
 }
-.lastbutton{
-    background-color: palegoldenrod;
+.view{
+   background-color: black;
     font-style: normal;
+    font-size: 18px;
+    padding: 6px;
 }

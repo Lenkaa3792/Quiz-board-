@@ -5,14 +5,19 @@ function check(){
     var q3=document.quiz.question3.value;
     var q4=document.quiz.question4.value;
     var q5=document.quiz.question5.value;
-    var total=document.getElementById("output");
-    var quiz=document.getElementById("quiz");
+    var marks=document.getElementById('marks');
+    var quiz=document.getElementById('quiz');
     if(q1=="lilongwe") {c++}
-    if(q2=="Africa") {c++}
+    if(q2=="Africa") {c++} 
     if(q3=="Tarmac roads") {c++}
     if(q4=="Everest") {c++}
     if(q5=="R.Nile") {c++}
-    quiz.style.display="none";
-    total.textContent='${c}';
+    quiz.style.display='none';
+     if (c<=3){
+     marks.textContent="Total Marks is ${c}. Try again."
+     }
+     else{
+          marks.textContent="Total Marks is ${c}. Good job."
 
+     }
 }
