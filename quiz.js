@@ -6,13 +6,16 @@ function check(){
     var q4=document.quiz.question4.value;
     var q5=document.quiz.question5.value;
     var marks=document.getElementById('marks');
-    var quiz=document.getElementById('quiz');
+    var quiz=document.getElementById('quiz')
+    var blink=document.getElementById("blink");
+    setInterval(() => {
+        blink.style.opacity=(blink.style.opacity==0? 1:0);
+    }, 600);
     if(q1=="lilongwe") {c++}
     if(q2=="Africa") {c++} 
     if(q3=="Tarmac roads") {c++}
     if(q4=="Everest") {c++}
     if(q5=="R.Nile") {c++}
-    quiz.style.display='none'
-    marks.textContent='${c}'; 
+    marks.textContent='${c}';
     document.write(c);
 }
