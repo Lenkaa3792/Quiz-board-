@@ -12,10 +12,6 @@ function check(){
     if(q3=="Tarmac roads") {c++}
     if(q4=="Everest") {c++}
     if(q5=="R.Nile") {c++}
-    quiz.style.display="none";
-    if (c<=3){
-        marks.textContent="Total mark is ${c}";
-    }
-    marks.textContent='${c}';
+   
     document.write(c);
 }
