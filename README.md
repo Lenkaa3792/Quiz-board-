@@ -53,7 +53,7 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-
+##Figma design :https://www.figma.com/file/QOraefyavKwYpE9icQ1xsB/Quiz-Mobile-and-Web-App-Design-(Community)?node-id=26%3A12
 
 
 ## Authors Info
