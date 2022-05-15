@@ -11,7 +11,7 @@
 
 As a user of the application,you will be able to :
 
-1. See questionbs and answers
+1. See questions and answers
 1. Choose an answer and view end results
 
  ###  Requirements
