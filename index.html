@@ -9,7 +9,12 @@
     <script type="text/javascript" src="quiz.js"></script>
 </head>
 <body>
-    <h2 class="glow">Take the quiz!!</h2>
+   <div class="wrapper">
+    <u><h2 class="glow">Take the quiz!!</h2></u>
+    <div class="result">
+        <h1 class="results" id="results">Initial mark is 0</h1>
+
+    </div>
     <form name="quiz" class="quiz"> 
        <div class="div1">
            <p>1.Which is the capital city of Malawi?</p>
@@ -47,11 +52,8 @@
         <p><input type="radio"name="question5" value="R.Congo">4.R.Congo</p>
     </div>
 
-
-       
        <input type="button" value="View total marks " class="view" onclick="check()">
     </form>
-<p id="marks"></p>
-
+   </div>
 </body>
 </html>
