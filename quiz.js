@@ -7,18 +7,20 @@ function check(){
     var q5=document.quiz.question5.value;
     var results=document.getElementById('results');
     var quiz=document.getElementById('quiz');
+
     if(q1=="lilongwe") {c++}
     if(q2=="Africa") {c++} 
     if(q3=="Tarmac roads") {c++}
     if(q4=="Everest") {c++}
     if(q5=="R.Nile") {c++}
-  if (c<2){
-      results.innerText = c+' :'+'Poor results,retake the quiz'
+    var percent=c/5*100;
+  if (percent>=80){
+      results.innerText = percent+' :'+'Excellently passed'
   }
-  else if(c>3){
-    results.innerText = c+' :'+'Excellently passed'
+  else if(percent>=50&& percent<80){
+    results.innerText = percent+' :'+'Fairly passed'
 }else
-{results.innerText = c+' :'+'fairly passed'
+{results.innerText = percent+' :'+'Retake'
 
 }
 
